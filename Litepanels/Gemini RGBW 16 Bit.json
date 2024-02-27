@@ -34,7 +34,7 @@
                     "last": 59,
                     "discrete":true
                 },
-                { /// TODO
+                { // TODO: Add preset color for GEL
                     "name": "GEL",
                     "first": 128,
                     "last": 191,
