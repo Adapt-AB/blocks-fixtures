@@ -1,0 +1,330 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Off",
+                    "first": 0,
+                    "last": 3,
+                    "discrete":true
+                },
+                {
+                    "name": "Random Fast",
+                    "first": 4,
+                    "last": 4,
+                    "discrete":true
+                },
+                {
+                    "name": "Random Medium",
+                    "first": 5,
+                    "last": 5,
+                    "discrete":true
+                },
+                {
+                    "name": "Random Slow",
+                    "first": 6,
+                    "last": 6,
+                    "discrete":true
+                },
+                {
+                    "name": "Variable Strobe (0.4Hz > 25Hz)",
+                    "first": 7,
+                    "last": 255,
+                    "discrete":false
+                }
+            ]
+        },
+        {
+            "name": "Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "One Color Static",
+                    "first": 0,
+                    "last": 7,
+                    "discrete":true
+                },
+                {
+                    "name": "Two Color Static",
+                    "first": 8,
+                    "last": 15,
+                    "discrete":true
+                },
+                {
+                    "name": "Three Color Static",
+                    "first": 16,
+                    "last": 23,
+                    "discrete":true
+                },
+                {
+                    "name": "Four Color Static",
+                    "first": 24,
+                    "last": 31,
+                    "discrete":true
+                },
+                {
+                    "name": "One Color Fade",
+                    "first": 32,
+                    "last": 39,
+                    "discrete":true
+                },
+                {
+                    "name": "Two Color Fade",
+                    "first": 40,
+                    "last": 47,
+                    "discrete":true
+                },
+                {
+                    "name": "Three Color Fade",
+                    "first": 48,
+                    "last": 55,
+                    "discrete":true
+                },
+                {
+                    "name": "Four Color Fade",
+                    "first": 56,
+                    "last": 63,
+                    "discrete":true
+                },
+                {
+                    "name": "Simple Running",
+                    "first": 64,
+                    "last": 71,
+                    "discrete":true
+                },
+                {
+                    "name": "Double Running",
+                    "first": 72,
+                    "last": 79,
+                    "discrete":true
+                },
+                {
+                    "name": "Two Col Running",
+                    "first": 80,
+                    "last": 87,
+                    "discrete":true
+                },
+                {
+                    "name": "Flag Running",
+                    "first": 88,
+                    "last": 95,
+                    "discrete":true
+                },
+                {
+                    "name": "Double Flag Running",
+                    "first": 96,
+                    "last": 101,
+                    "discrete":true
+                },
+                {
+                    "name": "Spiral 4 Color",
+                    "first": 102,
+                    "last": 109,
+                    "discrete":true
+                },
+                {
+                    "name": "Spiral 2 Color",
+                    "first": 110,
+                    "last": 117,
+                    "discrete":true
+                },
+                {
+                    "name": "Rainbow",
+                    "first": 118,
+                    "last": 125,
+                    "discrete":true
+                },
+                {
+                    "name": "Fire",
+                    "first": 126,
+                    "last": 133,
+                    "discrete":true
+                },
+                {
+                    "name": "Rotor",
+                    "first": 134,
+                    "last": 141,
+                    "discrete":true
+                },
+                {
+                    "name": "Rotor Split 2",
+                    "first": 142,
+                    "last": 149,
+                    "discrete":true
+                },
+                {
+                    "name": "Rotor Split 4",
+                    "first": 150,
+                    "last": 157,
+                    "discrete":true
+                }
+            ]
+        },
+        {
+            "name": "Speed (slow > fast)",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Crossfade (no fade > smooth fade)",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Direction",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Forward with loop",
+                    "first": 0,
+                    "last": 63,
+                    "discrete":true
+                },
+                {
+                    "name": "Forward one time and stop",
+                    "first": 64,
+                    "last": 127,
+                    "discrete":true
+                },
+                {
+                    "name": "Reverse one time and stop",
+                    "first": 128,
+                    "last": 190,
+                    "discrete":true
+                },
+                {
+                    "name": "Reverse with Loop",
+                    "first": 191,
+                    "last": 255,
+                    "discrete":true
+                }
+            ]
+        },
+        {
+            "name": "Size",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "1 Group",
+                    "first": 0,
+                    "last": 63,
+                    "discrete":true
+                },
+                {
+                    "name": "2 Groups",
+                    "first": 64,
+                    "last": 127,
+                    "discrete":true
+                },
+                {
+                    "name": "3 Groups",
+                    "first": 128,
+                    "last": 190,
+                    "discrete":true
+                },
+                {
+                    "name": "4 Groups",
+                    "first": 191,
+                    "last": 255,
+                    "discrete":true
+                }
+            ]
+        },
+        {
+            "name": "Offset",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Restart Program",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Red of Color 1",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Green of Color 1",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Blue of Color 1",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Red of Color 2",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Green of Color 2",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Blue of Color 2",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Red of Color 3",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Green of Color 3",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Blue of Color 3",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Red of Color 4",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Green of Color 4",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Blue of Color 4",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+
+    ],
+    "note": "Astera titan tubes Effect mode RGB"
+}
