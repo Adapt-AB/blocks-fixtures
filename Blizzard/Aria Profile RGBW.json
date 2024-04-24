@@ -7,25 +7,25 @@
             "defaultValue": 0
         },
         {
-            "name": "Red Intensity",
+            "name": "Red",
             "type": "Analog_8",
             "normalized": false,
             "defaultValue": 0
         },
         {
-            "name": "Green Intensity",
+            "name": "Green",
             "type": "Analog_8",
             "normalized": true,
             "defaultValue": 0
         },
         {
-            "name": "Blue Intensity",
+            "name": "Blue",
             "type": "Analog_8",
             "normalized": true,
             "defaultValue": 0
         },
         {
-            "name": "White Intensity",
+            "name": "White",
             "type": "Analog_8",
             "normalized": true,
             "defaultValue": 0
